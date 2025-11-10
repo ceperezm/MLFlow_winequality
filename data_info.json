@@ -1,0 +1,20 @@
+{
+  "train_samples": 1279,
+  "test_samples": 320,
+  "n_features": 11,
+  "features": [
+    "fixed acidity",
+    "volatile acidity",
+    "citric acid",
+    "residual sugar",
+    "chlorides",
+    "free sulfur dioxide",
+    "total sulfur dioxide",
+    "density",
+    "pH",
+    "sulphates",
+    "alcohol"
+  ],
+  "target_mean": 5.623924941360438,
+  "target_std": 0.8069086941433777
+}

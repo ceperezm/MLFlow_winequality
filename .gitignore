@@ -1,0 +1,22 @@
+#archivos y carpetas de python
+__pycache__/
+*.pyc
+*.pyo
+*.pyd
+*.pyw
+*.pyz
+*.pywz
+*.pyzw
+*.pyz
+*.pywz
+*.pyzw
+*.pyz
+
+#archivos y carpetas de mlflow
+project/mlruns/
+
+#data
+data/
+
+#variables de entorno
+.env

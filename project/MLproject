@@ -1,0 +1,28 @@
+name: wine-quality-mlops
+
+conda_env: conda.yaml
+
+entry_points:
+  main:
+    parameters:
+      model_type: {type: str, default: "random_forest"}
+      n_estimators: {type: int, default: 100}
+      max_depth: {type: int, default: 10}
+      alpha: {type: float, default: 1.0}
+      random_state: {type: int, default: 42}
+    command: "python train.py --model-type {model_type} --n-estimators {n_estimators} --max-depth {max_depth} --alpha {alpha} --random-state {random_state}"
+  
+  experiment_1:
+    parameters:
+      random_state: {type: int, default: 42}
+    command: "python train.py --model-type random_forest --n-estimators 50 --max-depth 5 --random-state {random_state}"
+  
+  experiment_2:
+    parameters:
+      random_state: {type: int, default: 42}
+    command: "python train.py --model-type random_forest --n-estimators 150 --max-depth 15 --random-state {random_state}"
+  
+  experiment_3:
+    parameters:
+      random_state: {type: int, default: 42}
+    command: "python train.py --model-type random_forest --n-estimators 200 --max-depth 200 --random-state {random_state}"
