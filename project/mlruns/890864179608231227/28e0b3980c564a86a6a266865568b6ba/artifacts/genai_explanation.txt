@@ -1,1 +1,0 @@
-Modelo random_forest entrenado. Predicción de calidad basada en características químicas del vino.

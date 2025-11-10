@@ -13,7 +13,7 @@ __pycache__/
 *.pyz
 
 #archivos y carpetas de mlflow
-project/mlruns/
+mlruns/
 
 #data
 data/
