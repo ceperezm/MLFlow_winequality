@@ -1,0 +1,16 @@
+artifact_uri: file:///C:/Users/Camilo/Pictures/MLFlow_vinos/project/mlruns/890864179608231227/eff06ca7b642426dbd1d59fc2b98f662/artifacts
+deleted_time: 1762737874088
+end_time: 1762737285648
+entry_point_name: ''
+experiment_id: '890864179608231227'
+lifecycle_stage: deleted
+run_id: eff06ca7b642426dbd1d59fc2b98f662
+run_name: rf_prediccion_1
+run_uuid: eff06ca7b642426dbd1d59fc2b98f662
+source_name: ''
+source_type: 4
+source_version: ''
+start_time: 1762737096247
+status: 3
+tags: []
+user_id: Camilo

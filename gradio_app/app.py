@@ -132,7 +132,7 @@ def get_model_metrics(model_name, stage="Production"):
 def log_prediction_explanation(features_dict, prediction, explanation, model_name, stage, genai_model):
     """Registra la explicación GenAI en MLflow como artifact"""
     try:
-        experiment_name = "wine-quality-predictions"
+        experiment_name = "wine-quality-predictions_genai"
         try:
             experiment = mlflow.get_experiment_by_name(experiment_name)
             if experiment is None:
@@ -212,11 +212,11 @@ def format_prediction_result(prediction, metrics, version, stage, sample_count=1
     sample_info = f"\n**Muestras procesadas:** {sample_count}" if sample_count > 1 else ""
     
     result_text = f"""
-##  PREDICCIÓN DE CALIDAD
+###  PREDICCIÓN DE CALIDAD
 
-    ### {prediction_rounded}/10
+   # {prediction_rounded}/10
 
-    **{sample_info}**
+   ** {sample_info}**
 {metrics_text}
 """
     
@@ -346,7 +346,7 @@ def predict_from_csv(csv_file, model_type="random_forest", stage="Production", g
         if explanation:
             full_result += f"""
 
-##  EXPLICACIÓN GENAI (PROMEDIO)
+##  EXPLICACIÓN GENAI
 
 {explanation}
 """
@@ -523,7 +523,7 @@ with gr.Blocks(title="Predicción de Calidad de Vinos", theme=gr.themes.Soft()) 
     
     gr.Markdown("""
     ---
-    ** Nota:** Asegúrate de tener:
+    Asegúrate de tener:
     1. MLflow corriendo y modelos registrados
     2. GEMINI_API_KEY (para Gemini) o OPENROUTER_API_KEY (para OpenRouter) configuradas  
     3. Los modelos entrenados y registrados en el Model Registry

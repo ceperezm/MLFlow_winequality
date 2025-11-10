@@ -1,0 +1,16 @@
+artifact_uri: file:///C:/Users/Camilo/Pictures/MLFlow_vinos/project/mlruns/501584216309956333/14b868c01afc43d294f43bf6706695e7/artifacts
+deleted_time: 1762388157055
+end_time: 1762331135768
+entry_point_name: ''
+experiment_id: '501584216309956333'
+lifecycle_stage: deleted
+run_id: 14b868c01afc43d294f43bf6706695e7
+run_name: serious-fish-923
+run_uuid: 14b868c01afc43d294f43bf6706695e7
+source_name: ''
+source_type: 4
+source_version: ''
+start_time: 1762331113108
+status: 3
+tags: []
+user_id: Camilo

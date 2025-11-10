@@ -15,7 +15,7 @@ entry_points:
   experiment_1:
     parameters:
       random_state: {type: int, default: 42}
-    command: "python train.py --model-type random_forest --n-estimators 50 --max-depth 5 --random-state {random_state}"
+    command: "python train.py --model-type random_forest --n-estimators 10 --max-depth 5 --random-state {random_state}"
   
   experiment_2:
     parameters:

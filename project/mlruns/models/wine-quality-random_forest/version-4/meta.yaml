@@ -1,0 +1,14 @@
+aliases: []
+creation_timestamp: 1762331747232
+current_stage: None
+description: null
+last_updated_timestamp: 1762331747232
+name: wine-quality-random_forest
+run_id: aae01013ff884be281144c97f1f490e8
+run_link: null
+source: file:///C:/Users/Camilo/Pictures/MLFlow_vinos/project/mlruns/501584216309956333/aae01013ff884be281144c97f1f490e8/artifacts/model
+status: READY
+status_message: null
+storage_location: file:///C:/Users/Camilo/Pictures/MLFlow_vinos/project/mlruns/501584216309956333/aae01013ff884be281144c97f1f490e8/artifacts/model
+user_id: null
+version: 4

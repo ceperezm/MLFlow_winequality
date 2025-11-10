@@ -1,0 +1,7 @@
+artifact_location: file:///C:/Users/Camilo/Pictures/MLFlow_vinos/project/mlruns/501584216309956333
+creation_time: 1762321505750
+experiment_id: '501584216309956333'
+last_update_time: 1762392171236
+lifecycle_stage: deleted
+name: wine-quality-prediction
+tags: {}

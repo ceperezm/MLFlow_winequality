@@ -1,0 +1,16 @@
+artifact_uri: mlflow-artifacts:/0/aba58bfca8ea4b6eaad1beea085a1bb0/artifacts
+deleted_time: 1762321978754
+end_time: 1762321612676
+entry_point_name: ''
+experiment_id: '0'
+lifecycle_stage: deleted
+run_id: aba58bfca8ea4b6eaad1beea085a1bb0
+run_name: enchanting-crab-38
+run_uuid: aba58bfca8ea4b6eaad1beea085a1bb0
+source_name: ''
+source_type: 4
+source_version: ''
+start_time: 1762321588670
+status: 4
+tags: []
+user_id: Camilo

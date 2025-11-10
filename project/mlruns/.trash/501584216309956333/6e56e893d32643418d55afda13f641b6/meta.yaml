@@ -1,0 +1,16 @@
+artifact_uri: file:///C:/Users/Camilo/Pictures/MLFlow_vinos/project/mlruns/501584216309956333/6e56e893d32643418d55afda13f641b6/artifacts
+deleted_time: 1762388157055
+end_time: 1762321941171
+entry_point_name: ''
+experiment_id: '501584216309956333'
+lifecycle_stage: deleted
+run_id: 6e56e893d32643418d55afda13f641b6
+run_name: welcoming-swan-937
+run_uuid: 6e56e893d32643418d55afda13f641b6
+source_name: ''
+source_type: 4
+source_version: ''
+start_time: 1762321900546
+status: 3
+tags: []
+user_id: Camilo

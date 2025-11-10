@@ -1,0 +1,16 @@
+artifact_uri: file:///C:/Users/Camilo/Pictures/MLFlow_vinos/project/mlruns/501584216309956333/a686eb47d4854f619565e025586e5a83/artifacts
+deleted_time: 1762388157053
+end_time: 1762331462099
+entry_point_name: ''
+experiment_id: '501584216309956333'
+lifecycle_stage: deleted
+run_id: a686eb47d4854f619565e025586e5a83
+run_name: bustling-yak-532
+run_uuid: a686eb47d4854f619565e025586e5a83
+source_name: ''
+source_type: 4
+source_version: ''
+start_time: 1762331439217
+status: 3
+tags: []
+user_id: Camilo

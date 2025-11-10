@@ -1,0 +1,16 @@
+artifact_uri: file:///C:/Users/Camilo/Pictures/MLFlow_vinos/project/mlruns/501584216309956333/aae01013ff884be281144c97f1f490e8/artifacts
+deleted_time: 1762392171236
+end_time: 1762331747811
+entry_point_name: ''
+experiment_id: '501584216309956333'
+lifecycle_stage: deleted
+run_id: aae01013ff884be281144c97f1f490e8
+run_name: hora_de_dormir
+run_uuid: aae01013ff884be281144c97f1f490e8
+source_name: ''
+source_type: 4
+source_version: ''
+start_time: 1762331723545
+status: 3
+tags: []
+user_id: Camilo
